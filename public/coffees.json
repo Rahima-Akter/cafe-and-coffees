@@ -1,0 +1,671 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIntIilfcG0m_-pCoE_HuJYOGfUAarvel-6A&s",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso coffee"
+    ],
+    "nutrition_info": {
+      "calories": 5,
+      "fat": 0,
+      "carbohydrates": 1,
+      "protein": 0
+    },
+    "origin": "Italy",
+    "type": "Black Coffee",
+    "description": "A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground coffee beans.",
+    "making_process": "Grind coffee beans finely, brew under high pressure to create a strong, concentrated coffee shot.",
+    "rating": 4.7,
+    "popularity": 95
+  },
+  {
+    "id": 2,
+    "name": "Americano",
+    "image": "https://i.pinimg.com/736x/84/8f/93/848f93df53ebb12817346bea375c2e5a.jpg",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso",
+      "water"
+    ],
+    "nutrition_info": {
+      "calories": 10,
+      "fat": 0,
+      "carbohydrates": 2,
+      "protein": 1
+    },
+    "origin": "Italy",
+    "type": "Black Coffee",
+    "description": "A coffee drink made by diluting a shot of espresso with hot water, resulting in a lighter flavor and larger volume.",
+    "making_process": "Prepare an espresso shot and dilute it with hot water to the desired strength.",
+    "rating": 4.5,
+    "popularity": 90
+  },
+  {
+    "id": 3,
+    "name": "Ristretto",
+    "image": "https://img.freepik.com/premium-photo/cup-black-coffee-dark-background_955712-42614.jpg",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso coffee"
+    ],
+    "nutrition_info": {
+      "calories": 3,
+      "fat": 0,
+      "carbohydrates": 0,
+      "protein": 0
+    },
+    "origin": "Italy",
+    "type": "Black Coffee",
+    "description": "A shorter, more concentrated shot of espresso, brewed with less water.",
+    "making_process": "Use less water in the espresso machine for a more intense and concentrated flavor.",
+    "rating": 4.6,
+    "popularity": 80
+  },
+  {
+    "id": 4,
+    "name": "Lungo",
+    "image": "https://www.shutterstock.com/image-photo/cup-americano-coffee-on-saucer-600nw-2497850779.jpg",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso coffee"
+    ],
+    "nutrition_info": {
+      "calories": 5,
+      "fat": 0,
+      "carbohydrates": 1,
+      "protein": 0
+    },
+    "origin": "Italy",
+    "type": "Black Coffee",
+    "description": "An espresso with more water, resulting in a milder taste with a larger volume.",
+    "making_process": "Brew espresso with more water for a longer extraction, producing a less intense taste.",
+    "rating": 4.4,
+    "popularity": 75
+  },
+  {
+    "id": 5,
+    "name": "Macchiato",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbuEgwdByM6E8aAOBmYBx0ZjGClfnsz24-Ww&s",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso",
+      "milk foam"
+    ],
+    "nutrition_info": {
+      "calories": 25,
+      "fat": 1,
+      "carbohydrates": 2,
+      "protein": 1
+    },
+    "origin": "Italy",
+    "type": "Coffee with Milk",
+    "description": "A shot of espresso with a small amount of foam on top.",
+    "making_process": "Brew a shot of espresso and add a small amount of foam on top.",
+    "rating": 4.4,
+    "popularity": 85
+  },
+  {
+    "id": 6,
+    "name": "Espresso Con Panna",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaOFkbef_NFhaX7Fw-ACrIk_uuB07RmJYgKQ&s",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso",
+      "whipped cream"
+    ],
+    "nutrition_info": {
+      "calories": 50,
+      "fat": 4,
+      "carbohydrates": 2,
+      "protein": 1
+    },
+    "origin": "Italy",
+    "type": "Black Coffee",
+    "description": "A shot of espresso topped with a dollop of whipped cream.",
+    "making_process": "Brew a shot of espresso and top with whipped cream.",
+    "rating": 4.6,
+    "popularity": 78
+  },
+  {
+    "id": 7,
+    "name": "Flat White",
+    "image": "https://img.freepik.com/premium-photo/photograph-coffee-latte-with-some-fill-light-dark-background_410516-3253.jpg",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso",
+      "steamed milk"
+    ],
+    "nutrition_info": {
+      "calories": 120,
+      "fat": 6,
+      "carbohydrates": 12,
+      "protein": 6
+    },
+    "origin": "Australia",
+    "type": "Coffee with Milk",
+    "description": "A coffee made with a shot of espresso and steamed milk with a velvety texture.",
+    "making_process": "Brew espresso and add steamed milk, resulting in a smooth, creamy coffee drink.",
+    "rating": 4.5,
+    "popularity": 85
+  },
+  {
+    "id": 8,
+    "name": "Doppio",
+    "image": "https://t4.ftcdn.net/jpg/10/40/67/57/360_F_1040675722_SHTQDkZOlcCwcZ2YYSRlwtslcVkPYYje.jpg",
+    "category": "Espresso",
+    "ingredients": [
+      "double espresso"
+    ],
+    "nutrition_info": {
+      "calories": 10,
+      "fat": 0,
+      "carbohydrates": 2,
+      "protein": 1
+    },
+    "origin": "Italy",
+    "type": "Black Coffee",
+    "description": "A double shot of espresso, brewed with twice the amount of coffee grounds.",
+    "making_process": "Brew two espresso shots for a stronger, more intense flavor.",
+    "rating": 4.7,
+    "popularity": 88
+  },
+  {
+    "id": 9,
+    "name": "Cortado",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdhOhMJ1zABdlMv_ARwIOKfRLhljvU3djKKdlexWI_6lNg639xnLJ5nu8MYyQa86TINiM&usqp=CAU",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso",
+      "steamed milk"
+    ],
+    "nutrition_info": {
+      "calories": 50,
+      "fat": 2,
+      "carbohydrates": 3,
+      "protein": 1
+    },
+    "origin": "Spain",
+    "type": "Coffee with Milk",
+    "description": "A coffee drink made with equal parts espresso and steamed milk.",
+    "making_process": "Brew espresso and add an equal amount of steamed milk.",
+    "rating": 4.3,
+    "popularity": 80
+  },
+  {
+    "id": 10,
+    "name": "Espresso Martini",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrimIFosffrVumwlGPY4Bjtcol6sfWsHxlIQ&s",
+    "category": "Espresso",
+    "ingredients": [
+      "espresso",
+      "vodka",
+      "coffee liqueur"
+    ],
+    "nutrition_info": {
+      "calories": 200,
+      "fat": 2,
+      "carbohydrates": 10,
+      "protein": 1
+    },
+    "origin": "Italy",
+    "type": "Cocktail",
+    "description": "A cocktail made with vodka, espresso, and coffee liqueur.",
+    "making_process": "Shake vodka, espresso, and coffee liqueur with ice and strain into a martini glass.",
+    "rating": 4.9,
+    "popularity": 93
+  },
+
+  {
+    "id": 11,
+    "name": "Cappuccino",
+    "image": "https://img.freepik.com/premium-photo/latte-art-cappuccino-black-background-with-coffee-cup-saucer-spoon_958272-833.jpg",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "milk foam"
+    ],
+    "nutrition_info": {
+      "calories": 120,
+      "fat": 7,
+      "carbohydrates": 12,
+      "protein": 6
+    },
+    "origin": "Italy",
+    "type": "Coffee with Milk",
+    "description": "A coffee drink made with espresso, steamed milk, and topped with a thick layer of milk foam.",
+    "making_process": "Brew an espresso shot, steam milk, and add a thick layer of foam on top.",
+    "rating": 4.8,
+    "popularity": 92
+  },
+  {
+    "id": 12,
+    "name": "Latte",
+    "image": "https://img.pikbest.com/ai/illus_our/20230424/11771a10497b6b95fd1b6aeb4be95385.jpg!bw700",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "milk foam"
+    ],
+    "nutrition_info": {
+      "calories": 150,
+      "fat": 8,
+      "carbohydrates": 15,
+      "protein": 7
+    },
+    "origin": "Italy",
+    "type": "Coffee with Milk",
+    "description": "A coffee drink made with a shot of espresso and steamed milk, often with a thin layer of foam on top.",
+    "making_process": "Brew an espresso shot, steam milk, and pour it over the espresso with a small amount of foam.",
+    "rating": 4.6,
+    "popularity": 93
+  },
+  {
+    "id": 13,
+    "name": "Flat White",
+    "image": "https://media.istockphoto.com/id/1368207254/photo/woman-holding-a-cup-of-cafe-latte-in-cafe.jpg?s=612x612&w=0&k=20&c=qOYbpuMTo4HFog53B6nWslNs588K4725g1aZHNS03XQ=",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "steamed milk"
+    ],
+    "nutrition_info": {
+      "calories": 120,
+      "fat": 6,
+      "carbohydrates": 12,
+      "protein": 6
+    },
+    "origin": "Australia",
+    "type": "Coffee with Milk",
+    "description": "A coffee made with a shot of espresso and steamed milk with a velvety texture.",
+    "making_process": "Brew espresso and add steamed milk, resulting in a smooth, creamy coffee drink.",
+    "rating": 4.5,
+    "popularity": 85
+  },
+  {
+    "id": 14,
+    "name": "Macchiato (Caramel)",
+    "image": "https://img.freepik.com/premium-photo/delicious-caramel-macchiato-with-foam-swirl-dark-background_1106454-18312.jpg",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "caramel syrup"
+    ],
+    "nutrition_info": {
+      "calories": 180,
+      "fat": 8,
+      "carbohydrates": 24,
+      "protein": 4
+    },
+    "origin": "Italy",
+    "type": "Coffee with Milk",
+    "description": "A caramel-flavored macchiato made with espresso, steamed milk, and caramel syrup.",
+    "making_process": "Brew espresso, add steamed milk, and drizzle caramel syrup on top.",
+    "rating": 4.4,
+    "popularity": 89
+  },
+  {
+    "id": 15,
+    "name": "Affogato",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSBY0-LXnlZmDimuB9HRyIXQDj4_Q4cmmrA&s",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "vanilla ice cream"
+    ],
+    "nutrition_info": {
+      "calories": 250,
+      "fat": 15,
+      "carbohydrates": 22,
+      "protein": 6
+    },
+    "origin": "Italy",
+    "type": "Coffee with Ice Cream",
+    "description": "Espresso poured over a scoop of vanilla ice cream.",
+    "making_process": "Brew a shot of espresso and pour it over a scoop of vanilla ice cream.",
+    "rating": 4.8,
+    "popularity": 90
+  },
+  {
+    "id": 16,
+    "name": "Mocha",
+    "image": "https://t4.ftcdn.net/jpg/06/85/03/65/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ.jpg",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "chocolate syrup"
+    ],
+    "nutrition_info": {
+      "calories": 200,
+      "fat": 10,
+      "carbohydrates": 25,
+      "protein": 6
+    },
+    "origin": "Italy",
+    "type": "Coffee with Milk",
+    "description": "A coffee made with espresso, steamed milk, and chocolate syrup.",
+    "making_process": "Brew espresso, add steamed milk, and mix in chocolate syrup.",
+    "rating": 4.7,
+    "popularity": 91
+  },
+  {
+    "id": 17,
+    "name": "Latte Macchiato",
+    "image": "https://media.istockphoto.com/id/1327356187/photo/latte-macchiato-with-whipped-cream-and-caramel-sauce-in-tall.jpg?s=612x612&w=0&k=20&c=Ft5Ot9FaC5VbM1Le336AJB8wuDAFVY6OTAxHE2QgV9g=",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "steamed milk",
+      "espresso"
+    ],
+    "nutrition_info": {
+      "calories": 150,
+      "fat": 8,
+      "carbohydrates": 15,
+      "protein": 7
+    },
+    "origin": "Italy",
+    "type": "Coffee with Milk",
+    "description": "A coffee drink with steamed milk and a shot of espresso poured over it.",
+    "making_process": "Steam milk and pour a shot of espresso over it to create a layered effect.",
+    "rating": 4.5,
+    "popularity": 85
+  },
+  {
+    "id": 18,
+    "name": "Café au Lait",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg6H8fUHvmmXn9y-M7fPqfEhJXG5aw3S0vffRniKSuSk_og76qmIAWwn6NUBCIYW4OiYY&usqp=CAU",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "brewed coffee",
+      "steamed milk"
+    ],
+    "nutrition_info": {
+      "calories": 120,
+      "fat": 6,
+      "carbohydrates": 12,
+      "protein": 5
+    },
+    "origin": "France",
+    "type": "Coffee with Milk",
+    "description": "A French coffee made with brewed coffee and steamed milk.",
+    "making_process": "Brew a strong coffee and add steamed milk.",
+    "rating": 4.3,
+    "popularity": 83
+  },
+  {
+    "id": 19,
+    "name": "Café Bombón",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZy3f_UIeWJTReWEh7Hby_k9r6ywTmJh5Z_Q&s",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "sweetened condensed milk"
+    ],
+    "nutrition_info": {
+      "calories": 200,
+      "fat": 10,
+      "carbohydrates": 30,
+      "protein": 5
+    },
+    "origin": "Spain",
+    "type": "Coffee with Milk",
+    "description": "Espresso served with sweetened condensed milk for a rich, sweet flavor.",
+    "making_process": "Brew espresso and mix with sweetened condensed milk.",
+    "rating": 4.6,
+    "popularity": 87
+  },
+  {
+    "id": 20,
+    "name": "Iced Latte",
+    "image": "https://png.pngtree.com/thumb_back/fw800/background/20231124/pngtree-iced-coffee-with-milk-served-on-the-black-table-at-a-image_15155095.jpg",
+    "category": "MilkCoffee",
+    "ingredients": [
+      "espresso",
+      "cold milk",
+      "ice"
+    ],
+    "nutrition_info": {
+      "calories": 120,
+      "fat": 5,
+      "carbohydrates": 12,
+      "protein": 7
+    },
+    "origin": "Global",
+    "type": "Iced Coffee",
+    "description": "An iced version of the classic latte, made with cold milk and ice.",
+    "making_process": "Brew espresso, pour over ice, and add cold milk.",
+    "rating": 4.4,
+    "popularity": 89
+  },
+
+  {
+    "id": 21,
+    "name": "Cold Brew Coffee",
+    "image": "https://www.shutterstock.com/image-photo/ice-coffee-tall-glass-cream-260nw-2333005683.jpg",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "water"
+    ],
+    "nutrition_info": {
+      "calories": 5,
+      "fat": 0,
+      "carbohydrates": 1,
+      "protein": 0
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "Coffee brewed with cold water over an extended period, resulting in a smooth and less acidic flavor.",
+    "making_process": "Brew coffee grounds with cold water for 12–24 hours.",
+    "rating": 4.6,
+    "popularity": 88
+  },
+  {
+    "id": 22,
+    "name": "Iced Coffee",
+    "image": "https://img.freepik.com/free-photo/ice-coffee-americano_1232-2686.jpg",
+    "category": "ColdBrew",
+    "ingredients": [
+      "brewed coffee",
+      "ice",
+      "milk",
+      "sugar"
+    ],
+    "nutrition_info": {
+      "calories": 50,
+      "fat": 1,
+      "carbohydrates": 12,
+      "protein": 1
+    },
+    "origin": "Global",
+    "type": "Iced Coffee",
+    "description": "Chilled brewed coffee served over ice, often sweetened and with milk added.",
+    "making_process": "Brew coffee, chill it, and serve over ice with optional milk and sweeteners.",
+    "rating": 4.3,
+    "popularity": 80
+  },
+  {
+    "id": 23,
+    "name": "Nitro Coffee",
+    "image": "https://t4.ftcdn.net/jpg/08/45/40/33/360_F_845403314_eBw1rYkUEBMYEwinU6HKrNK4rBpIN7NJ.jpg",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "nitrogen gas"
+    ],
+    "nutrition_info": {
+      "calories": 5,
+      "fat": 0,
+      "carbohydrates": 1,
+      "protein": 0
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "Cold brew coffee infused with nitrogen gas, creating a smooth, creamy texture and rich flavor.",
+    "making_process": "Infuse cold brew coffee with nitrogen gas and serve on tap, like a draft beer.",
+    "rating": 4.8,
+    "popularity": 85
+  },
+  {
+    "id": 24,
+    "name": "Iced Nitro Coffee",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-c7TG638AJ-_OdMbHW9G1WUfwHVcBNNHYOw&s",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "nitrogen gas",
+      "ice"
+    ],
+    "nutrition_info": {
+      "calories": 10,
+      "fat": 0,
+      "carbohydrates": 2,
+      "protein": 0
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "A cold brew coffee infused with nitrogen, served over ice.",
+    "making_process": "Infuse cold brew coffee with nitrogen, serve over ice.",
+    "rating": 4.7,
+    "popularity": 86
+  },
+  {
+    "id": 25,
+    "name": "Nitro Latte",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwEfesoSxlf6l1Ea7sPxoQTMnKGUnJ5UKyw&s",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "milk",
+      "nitrogen gas"
+    ],
+    "nutrition_info": {
+      "calories": 90,
+      "fat": 2,
+      "carbohydrates": 10,
+      "protein": 3
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "A nitrogen-infused cold brew coffee with milk for a creamy, smooth texture.",
+    "making_process": "Infuse cold brew coffee with nitrogen and add milk.",
+    "rating": 4.6,
+    "popularity": 84
+  },
+  {
+    "id": 26,
+    "name": "Iced Cold Brew",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFiOImOVakXRo1pNzxSSyhBauUNb0G4AgI1A&s",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "ice"
+    ],
+    "nutrition_info": {
+      "calories": 10,
+      "fat": 0,
+      "carbohydrates": 2,
+      "protein": 0
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "Cold brew served over ice for a refreshing, chilled coffee experience.",
+    "making_process": "Pour cold brew coffee over ice for a refreshing cold coffee drink.",
+    "rating": 4.4,
+    "popularity": 82
+  },
+  {
+    "id": 27,
+    "name": "Sweetened Cold Brew",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0H6cz4fp2oOrvPcb_1iP1NWAQtMGK2K-zhTAB1GAv4c4n0qSOxuj0ACr7yBfFnrLydCo&usqp=CAU",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "sugar"
+    ],
+    "nutrition_info": {
+      "calories": 20,
+      "fat": 0,
+      "carbohydrates": 5,
+      "protein": 0
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "Cold brew coffee served with sugar for a sweetened, chilled coffee drink.",
+    "making_process": "Sweeten cold brew coffee with sugar, and serve over ice.",
+    "rating": 4.2,
+    "popularity": 75
+  },
+  {
+    "id": 28,
+    "name": "Cold Brew Tonic",
+    "image": "https://cafebarista.ca/cdn/shop/articles/cold-brew-tonic-blogue.jpg?v=1693057518&width=1920",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "tonic water"
+    ],
+    "nutrition_info": {
+      "calories": 15,
+      "fat": 0,
+      "carbohydrates": 4,
+      "protein": 0
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "A refreshing combination of cold brew coffee and tonic water for a unique and effervescent experience.",
+    "making_process": "Mix cold brew coffee with tonic water for a sparkling, bitter-sweet drink.",
+    "rating": 4.5,
+    "popularity": 80
+  },
+  {
+    "id": 29,
+    "name": "Cold Brew Float",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlecu-rOFtNYwwop1qwVAAIUgY0YFDQv0_w&s",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "vanilla ice cream"
+    ],
+    "nutrition_info": {
+      "calories": 250,
+      "fat": 15,
+      "carbohydrates": 30,
+      "protein": 6
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "Cold brew coffee served with a scoop of vanilla ice cream, combining a rich and creamy taste.",
+    "making_process": "Pour cold brew coffee over a scoop of vanilla ice cream.",
+    "rating": 4.7,
+    "popularity": 87
+  },
+  {
+    "id": 30,
+    "name": "Cold Brew Mocha",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRjHPvUiLnOwaS9L-dEKTBjkAHhAWIcP-8_A&s",
+    "category": "ColdBrew",
+    "ingredients": [
+      "cold brew coffee",
+      "chocolate syrup",
+      "milk"
+    ],
+    "nutrition_info": {
+      "calories": 180,
+      "fat": 8,
+      "carbohydrates": 30,
+      "protein": 5
+    },
+    "origin": "United States",
+    "type": "Cold Coffee",
+    "description": "Cold brew coffee mixed with chocolate syrup and milk for a refreshing iced mocha.",
+    "making_process": "Mix cold brew coffee with chocolate syrup and pour over ice with milk.",
+    "rating": 4.6,
+    "popularity": 85
+  }
+]

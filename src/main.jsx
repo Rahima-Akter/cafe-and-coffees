@@ -1,5 +1,8 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client';
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,48 +22,54 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
-    children:[
+    loader: () => fetch('../public/coffees.json'),
+    children: [
       {
-        path:"/",
+        path: "/",
         element: <Home></Home>,
         children: [
           {
             path: "/",
             element: <Espresso></Espresso>,
-            loader: () => fetch('../public/coffees.json'),
           },
           {
             path: "/milkcoffee",
             element: <MilkCoffee></MilkCoffee>,
-            loader: () => fetch('../public/coffees.json'),
           },
           {
             path: "/coldbrew",
             element: <ColdBrew></ColdBrew>,
-            loader: () => fetch('../public/coffees.json'),
           },
         ]
       },
       {
-        path:"/coffees",
+        path: "/coffees",
         element: <Coffees></Coffees>,
-        loader: () => fetch('../public/coffees.json'),
       },
       {
-        path:"/:id",
+        path: "/:id",
         element: <CoffeeDetail></CoffeeDetail>,
-        loader: () => fetch('../public/coffees.json'),
       },
       {
-        path:"/dashboard",
+        path: "/dashboard",
         element: <Dashboard></Dashboard>
       },
     ]
   },
-]);
+], {
+  future: {
+    v7_startTransition: true,
+    v7_skipActionErrorRevalidation: true,
+    v7_fetcherPersist: true,
+    v7_normalizeFormMethod: true,
+    v7_partialHydration: true,
+    v7_relativeSplatPath: true,
+  },
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} future={{ v7_startTransition: true, }} />
+    <ToastContainer />
   </StrictMode>,
 )

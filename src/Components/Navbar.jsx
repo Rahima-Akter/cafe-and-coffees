@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { DiVisualstudio } from 'react-icons/di';
 import { FaHome, FaCoffee, FaTachometerAlt, FaBars, FaTimes } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,9 +10,7 @@ const Navbar = () => {
         <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/50 shadow-lg py-4 px-6">
             <div className="relative max-w-screen-xl mx-auto flex items-center justify-between">
                 {/* Logo or Name */}
-                <div className="text-2xl font-semibold text-black">
-                    Cafe&Coffees
-                </div>
+                <Link to="/" className="text-2xl font-semibold text-black">Cafe&Coffees</Link>
 
                 {/* Desktop Navigation Links */}
                 <div className="hidden md:flex items-center space-x-8 text-black">

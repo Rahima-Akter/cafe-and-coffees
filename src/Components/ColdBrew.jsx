@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react';
-import { useLoaderData, useNavigate } from 'react-router-dom';
+import { useContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import DataContext from '../Context/Context';
 
 const ColdBrew = () => {
     const navigate = useNavigate()
     const [coldBrew, setColdBrew] = useState([])
-    const data = useLoaderData()
+    const {data} = useContext(DataContext)
 
     useEffect(() => {
         const coldBrewData = data.filter(milkCoffes => milkCoffes.category === 'ColdBrew').slice(0, 6)
@@ -15,7 +16,7 @@ const ColdBrew = () => {
         <div className="w-11/12 mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {
-                    coldBrew.map(item => <div onClick={() => navigate(`/${item.id}`)} key={item.id} className="card bg-base-100 w-[350px] shadow-xl hover:scale-105 border">
+                    coldBrew.map(item => <div onClick={() => navigate(`/${item.id}`)} key={item.id} className="card bg-base-100 gap-5 lg:w-[350px] shadow-xl hover:scale-105 border cursor-pointer">
                         <figure className="p-5">
                             <img
                                 src={item.image}

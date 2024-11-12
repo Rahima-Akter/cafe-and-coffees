@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
-    loader: () => fetch('../public/coffees.json'),
+    loader: () => fetch('./coffees.json'),
     children: [
       {
         path: "/",

@@ -44,7 +44,7 @@ const Coffees = () => {
                                 src={item.image}
                                 alt={item.name} className="w-full h-[210px] object-cover rounded-md" />
                         </figure>
-                        <div className="px-5 pb-5 font-semibold">
+                        <div className="px-5 pb-5 -mt-5 font-semibold">
                             <h2 className="text-[17px]">Name: <span className="text-[15px] font-normal">{item.name}</span></h2>
                             <h2 className="text-[17px]">Category: <span className="text-[15px] font-normal">{item.category}</span></h2>
                             <h2 className="text-[17px]">Type: <span className="text-[15px] font-normal">{item.type}</span></h2>
